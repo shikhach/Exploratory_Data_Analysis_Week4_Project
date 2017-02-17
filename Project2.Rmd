@@ -92,6 +92,7 @@ png("plot1.png", height=480, width=680)
 barplot(  (emi$Emissions)/10^6 , names.arg= emi$year, ylab="PM2.5 Emissions", xlab="Year", main= "Total emissions from PM2.5 in the United States" , col= "navy blue")
 dev.off()
 ```
+![plot of chunk plot1](plot1.png) 
 
 **Conclusion
 
