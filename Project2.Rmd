@@ -119,6 +119,7 @@ barplot(  (emi_M$Emissions)/10^6 , names.arg= emi_M$year, ylab="PM2.5 Emissions"
 dev.off()
 
 ```
+![plot of chunk plot1](plot2.png) 
 **Conclusion
 
 Overall total emissions from PM2.5 have decreased in Baltimore City, Maryland from 1999 to 2008.
@@ -148,7 +149,7 @@ ggplot(MarylandSubset, aes(factor(year), Emissions, fill = type)) +
 dev.off()
 
 ```
-
+![plot of chunk plot1](plot3.png) 
 **Conclusion
 
 The `non-road`, `nonpoint`, `on-road` source types have all seen decreased emissions overall from 1999-2008 in Baltimore City.
@@ -185,7 +186,7 @@ ggplot(dfr, aes(factor(year), Emissions)) +
 dev.off()
 
 ```
-
+![plot of chunk plot1](plot4.png) 
 **Conclusion
 
 Emissions from coal combustion related sources have decreased from 6 * 10^6 to below 4 * 10^6 from 1999-2008.
@@ -215,7 +216,7 @@ ggplot(Balt_vehi_set_aggr, aes(factor(year), Emissions)) +
 
 dev.off()
 ```
-
+![plot of chunk plot1](plot5.png) 
 **Conclusion
 
 Emissions from motor vehicle sources have dropped from 1999-2008 in Baltimore City!
@@ -250,7 +251,7 @@ ggplot(Balt_Cal_motor, aes(x= factor(year), y= Emissions, fill= City)) +
 
 dev.off()
 ```
-
+![plot of chunk plot1](plot6.png) 
 **Conclusion
 
 Los Angeles County has seen the greatest changes over time in motor vehicle emissions.
